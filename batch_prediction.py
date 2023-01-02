@@ -1,4 +1,4 @@
-from exception import SensorException
+from exception import CustomException
 from logger import logging
 import pandas as pd
 from datetime import datetime
@@ -41,11 +41,11 @@ def start_batch_prediction(input_file_path):
         logging.info("Batch Prediction Successful")
         print("Batch Prediction Successful")
     except Exception as e:
-        raise SensorException(e, sys)
+        raise CustomException(e, sys)
 
 
 if __name__=="__main__":
     try:
         start_batch_prediction("Input_CSV\Prediction.csv")
     except Exception as e:
-        raise SensorException(e, sys)
+        raise CustomException(e, sys)

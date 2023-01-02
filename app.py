@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import numpy as np
 import os, sys
-from exception import SensorException
+from exception import CustomException
 from logger import logging
 
 ### loading model and scalar object
@@ -41,7 +41,7 @@ def prediction():
         logging.info("Returning model prediction to web application")
         return render_template("home.html",prediction_value="Model Prediction: {}".format(output))
     except Exception as e:
-        raise SensorException(e, sys)
+        raise CustomException(e, sys)
 
 ### Note check log file for the server link or paste this in browser: http://127.0.0.1:5000
 if __name__=='__main__':
