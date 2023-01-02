@@ -1,5 +1,6 @@
 # Breast Cancer Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.png" alt="Signs of Breast Cancer" width="100"/>
+
 
 ### Problem Statement
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
@@ -76,10 +77,10 @@ pip install -r requirements.txt
 ```
 
 ## Application
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.png" alt="Web Application" width="100"/>
 
 ## Positive Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.png" alt="Positive Model Prediction" width="100"/>
 
 ## Negative Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.png" alt="Negative Model Prediction" width="100"/>
