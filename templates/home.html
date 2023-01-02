@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <title>CANCER PREDICTION</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
 
 </head>
 
-<body>
+<body style="background-color:powderblue;">
 <div class="login">
     <h1>BREAST CANCER PREDICTION</h1>
     <p style="color:DodgerBlue;"><b>By Shubham Verma</b></p>
@@ -21,7 +21,7 @@
     <p>
         <b>Enter the following parameters from your Medical Report.</b>
     </p>
-    <form action="{{url_for('prediction')}}" method="POST">
+    <form action="{{url_for('prediction')}}" method="POST" text-align: center>
         <input type="text" name="radius" placeholder="Radius of Cell" required="required"/><br>
         <input type="text" name="texture" placeholder="Texture of Cell" required="required"/><br>
         <input type="text" name="perimeter" placeholder="Perimeter of Cell" required="required"/><br>

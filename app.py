@@ -3,16 +3,18 @@ import joblib
 import numpy as np
 
 ### loading model and scalar object
-model=joblib.load('model_web.sav')
+model=joblib.load('model_web_etc.sav')
 scalar=joblib.load('scalar_web.sav')
 
 app=Flask(__name__)
 
-
+### creating home route
 @app.route("/")
 def home():
     return render_template("home.html")
 
+
+# Creating Prediction route
 @app.route('/prediction',methods=['POST'])
 def prediction():
     data=[float(x) for x in request.form.values()]
