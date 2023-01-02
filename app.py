@@ -43,6 +43,6 @@ def prediction():
     except Exception as e:
         raise SensorException(e, sys)
 
-
+### Note check log file for the server link or paste this in browser: http://127.0.0.1:5000
 if __name__=='__main__':
     app.run()
