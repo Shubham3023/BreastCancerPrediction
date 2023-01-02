@@ -6,10 +6,10 @@ from exception import SensorException
 from logger import logging
 
 ### loading model and scalar object
-logging.info("Reading model object from model.sav file")
-model=joblib.load('model_web_etc.sav')
-logging.info("Reading transformer object from scaler.sav file")
-scalar=joblib.load('scalar_web.sav')
+logging.info("Reading model object from model_web_etc.sav file")
+model=joblib.load('Models\model_web_etc.sav')
+logging.info("Reading transformer object from scaler_web.sav file")
+scalar=joblib.load('Models\scalar_web.sav')
 
 app=Flask(__name__)
 

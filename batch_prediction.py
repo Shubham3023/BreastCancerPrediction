@@ -7,9 +7,9 @@ import joblib
 
 ### loading model and scalar object
 logging.info("Reading model object from model_batch.sav file")
-model=joblib.load('model_batch.sav')
+model=joblib.load('Models\model_batch.sav')
 logging.info("Reading transformer object from scaler_batch.sav file")
-scalar=joblib.load('scalar_batch.sav')
+scalar=joblib.load('Models\scalar_batch.sav')
 
 
 PREDICTION_DIR=os.path.join(os.getcwd(),"Batch_Prediction")
@@ -46,6 +46,6 @@ def start_batch_prediction(input_file_path):
 
 if __name__=="__main__":
     try:
-        start_batch_prediction("Prediction.csv")
+        start_batch_prediction("Input_CSV\Prediction.csv")
     except Exception as e:
         raise SensorException(e, sys)
