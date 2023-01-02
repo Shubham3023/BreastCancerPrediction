@@ -20,9 +20,9 @@ def prediction():
     output=model.predict(final_input)[0]
     #print(output)
     if output==1:
-        output= "Tumor is Malignant. Your diagnosis is positive."
+        output= "Tumor is Malignant. Your diagnosis is Positive."
     else:
-        output="Tumor is Benign. Your diagnosis is negative."
+        output="Tumor is Benign. Your diagnosis is Negative."
     return render_template("home.html",prediction_value="Model Prediction: {}".format(output))
 
 if __name__=='__main__':
