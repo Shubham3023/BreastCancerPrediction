@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
-2. Open this link in http://127.0.0.1:5000
+2. Open this link in browser: http://127.0.0.1:5000
 ```
 
 ### Step 4.B. For batch prediction
