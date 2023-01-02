@@ -75,7 +75,6 @@ pip install -r requirements.txt
 
 ```
 
-
 ## Application
 ![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.jpg)
 
