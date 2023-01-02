@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 ### loading model and scalar object
-model=joblib.load('model.sav')
-scalar=joblib.load('scalar.sav')
+model=joblib.load('model_web.sav')
+scalar=joblib.load('scalar_web.sav')
 
 app=Flask(__name__)
 
