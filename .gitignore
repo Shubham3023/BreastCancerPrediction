@@ -6,6 +6,7 @@ artifact
 # C extensions
 *.so
 prediction
+Batch_Prediction
 saved_models
 demotest.py
 logs
