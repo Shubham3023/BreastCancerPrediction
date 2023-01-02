@@ -56,14 +56,21 @@ pip install -r requirements.txt
 ```
 
 
-### Step 4 - Run the application server
+### Step 4.A - Run the application server for web app
 ```bash
-python app.py
+1. Run app.py
 ```
 
-### Step 5. For prediction open below link in browser
+```bash
+2. Open this link in http://127.0.0.1:5000
 ```
-http://127.0.0.1:5000
+
+### Step 4.B. For batch prediction
+```
+1. Provide input file path for start_batch_prediction function
+2. Run batch_prediction.py file 
+3. Prediction file is saved in Batch Prediction directory
+
 
 ```
 
