@@ -25,17 +25,21 @@ def start_batch_prediction(input_file_path):
             test_df= df.drop("Diagnosis", axis =1)
         else: 
             test_df=df
+        logging.info("Scaling the features in test dataset")
         test_df=scalar.transform(test_df)
-        prediction = model.predict(test_df)      
+        logging.info("Prediction using trained model")
+        prediction = model.predict(test_df) 
+        logging.info("Appending prediction {} to dataframe".format(prediction))     
         df["Prediction"]=prediction
+        logging.info("Converting prediction values to categorical form")
         df["Prediction_Cat"]=df["Prediction"].astype(str).replace("1", "M").replace("0", "B")
-
-
 
         prediction_file_name = os.path.basename(input_file_path).replace(".csv",f"{datetime.now().strftime('%m%d%Y__%H%M%S')}.csv")
         prediction_file_path = os.path.join(PREDICTION_DIR,prediction_file_name)
+        logging.info("Saving Prediction file to CSV")
         df.to_csv(prediction_file_path,index=False,header=True)
-        print("Batch prediction successful")
+        logging.info("Batch Prediction Successful")
+        print("Batch Prediction Successful")
     except Exception as e:
         raise SensorException(e, sys)
 
