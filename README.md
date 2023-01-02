@@ -1,5 +1,7 @@
 # Breast Cancer Prediction
-<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.png" alt="Signs of Breast Cancer" width="100"/>
+<div>
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.png" alt="Signs of Breast Cancer"/>
+</div>
 
 
 ### Problem Statement
@@ -77,10 +79,10 @@ pip install -r requirements.txt
 ```
 
 ## Application
-<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.png" alt="Web Application" width="100"/>
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.png" alt="Web Application" />
 
 ## Positive Prediction
-<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.png" alt="Positive Model Prediction" width="100"/>
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.png" alt="Positive Model Prediction" />
 
 ## Negative Prediction
-<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.png" alt="Negative Model Prediction" width="100"/>
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.png" alt="Negative Model Prediction" />
