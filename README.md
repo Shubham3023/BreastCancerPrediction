@@ -44,7 +44,7 @@ False Negative => The person has cancer but model prediction is Negative(No Canc
 
 ## How to run?
 This app was deployed on Heroku, but as the heroku is closed all free tiers, This app is now available for offline run.
-In comming days, i'll deploy this app on AWS.
+In coming days, i'll deploy this app on AWS.
 
 
 ### Step 1: Clone the repository
