@@ -71,9 +71,10 @@ pip install -r requirements.txt
 
 ### Step 4.B. For batch prediction
 ```
-1. Provide input file path for start_batch_prediction function
-2. Run batch_prediction.py file 
-3. Prediction file is saved in Batch Prediction directory
+1. Upload the input csv file to InputCSV directory.
+2. Provide the  above file path to start_batch_prediction function.
+3. Run batch_prediction.py file.
+4. Prediction file is saved in Batch Prediction directory.
 
 
 ```
