@@ -1,5 +1,8 @@
 # Breast Cancer Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.jpg)
+<div>
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Signs.png" alt="Signs of Breast Cancer"/>
+</div>
+
 
 ### Problem Statement
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
@@ -41,7 +44,7 @@ False Negative => The person has cancer but model prediction is Negative(No Canc
 
 ## How to run?
 This app was deployed on Heroku, but as the heroku is closed all free tiers, This app is now available for offline run.
-In comming days, i'll deploy this app on AWS.
+In coming days, i'll deploy this app on AWS.
 
 
 ### Step 1: Clone the repository
@@ -68,18 +71,19 @@ pip install -r requirements.txt
 
 ### Step 4.B. For batch prediction
 ```
-1. Provide input file path for start_batch_prediction function
-2. Run batch_prediction.py file 
-3. Prediction file is saved in Batch Prediction directory
+1. Upload the input csv file to InputCSV directory.
+2. Provide the  above file path to start_batch_prediction function.
+3. Run batch_prediction.py file.
+4. Prediction file is saved in Batch Prediction directory.
 
 
 ```
 
 ## Application
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Homeapp.png" alt="Web Application" />
 
 ## Positive Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Positive%20Prediction.png" alt="Positive Model Prediction" />
 
 ## Negative Prediction
-![image](https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.jpg)
+<img src="https://github.com/Shubham3023/BreastCancerPrediction/blob/main/Notebook/Negative%20Prediction.png" alt="Negative Model Prediction" />
